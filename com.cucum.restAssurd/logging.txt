@@ -1,0 +1,115 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "accuracy": 60,
+    "name": "Drig",
+    "phone_number": "6789654378",
+    "address": "Rewa mp",
+    "website": "http://gmkai.com",
+    "language": "Bagheli",
+    "types": [
+        "Deer",
+        "Rabbit"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Sun, 19 Jan 2020 08:45:23 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "4719ee430c7d2e4ab46ca9fba5ae9af1",
+    "scope": "APP",
+    "reference": "3ea6df729737163a701c4b66b3faa8c73ea6df729737163a701c4b66b3faa8c7",
+    "id": "3ea6df729737163a701c4b66b3faa8c7"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=4719ee430c7d2e4ab46ca9fba5ae9af1
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=4719ee430c7d2e4ab46ca9fba5ae9af1
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 19 Jan 2020 08:45:25 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 214
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "60",
+    "name": "Drig",
+    "phone_number": "6789654378",
+    "address": "Rewa mp",
+    "types": "Deer,Rabbit",
+    "website": "http://gmkai.com",
+    "language": "Bagheli"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "place_id": "4719ee430c7d2e4ab46ca9fba5ae9af1"
+}
+HTTP/1.1 200 OK
+Date: Sun, 19 Jan 2020 08:45:25 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
